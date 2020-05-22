@@ -25,7 +25,8 @@ Se debe ejecutar la migración de los modelos para que se cree la tabla en Postg
 Esto creará la tabla en postgres sin datos, hay que llenar la tabla para poder continuar.
 
 Para ejecutar el servicio hay que ejecutar la siguiente línea:
-python manage.py runserver 0.0.0.0:8000
+	
+	python manage.py runserver 0.0.0.0:8000
 
 
 Para probar la API hay que visitar las siguientes urls:
