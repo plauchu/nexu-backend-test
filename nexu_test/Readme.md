@@ -1,17 +1,20 @@
 Para la prueba del siguiente código se necesita los siguientes requisitos:
 
 Postgresql  12 con lo siguientes parámetros:
-        'NAME': 'Cars',
+        
+	'NAME': 'Cars',
         'USER': 'postgres',
         'PASSWORD':'test',
         'HOST':'127.0.0.1',
         'PORT':'5432'
 
 Dentro de la carpeta nexus_test crear un ambiente virtual con python y activarlo:
+	
 	python -m venv env
 	source env/bin/activate
 
 Después debemos instalar las librerías requeridas:
+	
 	pip install -r requirements.txt
 
 Se debe ejecutar la migración de los modelos para que se cree la tabla en Postgres:
